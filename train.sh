@@ -1,0 +1,2 @@
+#  python legged_gym/legged_gym/scripts/train.py --task g1 --num_envs 128 --run_name my_policy --rl_device cuda:0 --sim_device cuda:0
+python legged_gym/legged_gym/scripts/train.py --task g1 --num_envs 4096 --headless --run_name my_policy --rl_device cuda:0 --sim_device cuda:0
