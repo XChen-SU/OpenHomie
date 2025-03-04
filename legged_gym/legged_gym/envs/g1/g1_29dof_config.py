@@ -290,9 +290,9 @@ class G1RoughCfgPPO( LeggedRobotCfgPPO ):
         save_interval = 200
         num_steps_per_env = 50
         max_iterations = 100000
-        run_name = 'run_1'  # Edit this later
-        experiment_name = 'experiment_1'  #Edit this later
+        run_name = 'run_2'  # Edit this later
+        experiment_name = 'experiment_2'  #Edit this later
         wandb_project = "HomieRL_1" # Edit this later
-        logger = "wandb"        
-        # logger = "tensorboard" # You can also change this       
+        # logger = "wandb"        
+        logger = "tensorboard" # You can also change this       
         wandb_user = "xchen47" # enter your own wandb user name here

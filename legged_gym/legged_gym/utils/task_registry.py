@@ -151,7 +151,8 @@ class TaskRegistry():
             # load previously trained model
             # resume_path = "./example_model.pt"
             # resume_path = "./legged_gym/logs/experiment_1/Feb19_15-21-15_my_policy/model_0.pt"
-            resume_path = "./legged_gym/logs/experiment_1/Feb25_19-33-17_my_policy/model_30000.pt"
+            # resume_path = "./legged_gym/logs/experiment_1/Feb25_19-33-17_my_policy/model_30000.pt"
+            resume_path = "./legged_gym/logs/experiment_2/Mar03_16-43-17_my_policy/model_6000.pt" #reward = 108
             print(f"Loading model from: {resume_path}")
             runner.load(resume_path)
         return runner, train_cfg
